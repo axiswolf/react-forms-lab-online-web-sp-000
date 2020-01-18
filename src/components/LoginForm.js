@@ -9,7 +9,7 @@ class LoginForm extends React.Component {
       password: '',
     };
   }
-  
+
   handleChange = event => {
     this.setState({
       [event.target.name]: event.target.value
@@ -22,7 +22,7 @@ class LoginForm extends React.Component {
     return
     this.props.handleLogin(this.state)
   }
-  
+
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
