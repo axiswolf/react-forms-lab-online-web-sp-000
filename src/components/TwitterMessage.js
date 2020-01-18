@@ -5,6 +5,9 @@ class TwitterMessage extends React.Component {
     super();
 
     this.state = {};
+    // maximum characters = 280
+    // show remaining characters in components
+    // counter can have negative values
   }
 
   render() {
